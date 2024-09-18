@@ -1,0 +1,512 @@
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    :root{
+        --gray: rgb(235, 235, 235);
+        --white: rgb(255,255,255);
+        --red: rgb(237,28,36);
+        --gray-foster: rgb(200,200,200);
+        --yellow: rgb(253,185,19);
+        font-family: Helvetica;
+    }
+    html{
+        font-size: 90%;
+    }
+
+    a{
+        text-decoration: none;
+        color:black;
+    }
+/* header */
+/* top header */
+    .top-header{
+        width: 100%;
+        height: 40px;
+        top: 0px;
+        background-color: var(--white);
+        position: relative;
+
+    }
+
+    .inline-list-box{
+        width: 500px;
+        height: 40px;
+        position: absolute;
+        top: 0px;
+        right: 8%;
+
+    }
+
+    .inline-list-support{
+        height: 40px;
+        width: 100%;
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .shopping-cart{
+        position: relative;
+    }
+
+    .icon-shopping-count{
+        border-radius: 100%;
+        background-color: var(--red);
+        color: var(--white);
+        font-size: 0.8rem;
+        top: -5px;
+        right: -10px;
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        text-align: center;
+    }
+/*main header*/
+    .main-header{
+        top: 0px;
+        background-color: var(--gray);
+        height: 80px;
+        width: 100%;
+    }
+    
+    .list-services-box{
+        width: 84%;
+        margin-left: 8%;
+        margin-right: 8%;
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu-services{
+        width: 800px;
+        height: 80px;
+        font-size: 1.5rem;
+        display: inline-flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+    }
+
+    .menu-services li{
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+
+    .sub-menu{
+        background-color: var(--white);
+        position: absolute;
+        top: 78px;
+        list-style: none;
+        width: 250px;
+        font-size: 1.2rem;
+        display: none;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    .sub-menu li{
+        padding: 10px;
+        border-bottom: 2px solid var(--gray-foster);
+ 
+    }
+
+    .sub-menu li:hover{
+        color: var(--red);
+        background-color: var(--yellow);
+        font-weight: bold;
+    }
+
+    .menu-services li:hover .sub-menu{
+        display: block;
+        color:rgb(14, 14, 14)
+    }
+        
+    ul.menu-services li a:hover{
+        color: var(--red);
+    }
+    .search-box{
+        background-color: transparent;
+        width: 350px;
+        padding-left: 20px;
+    }
+    
+    .input-text{
+        width: 250px;
+        border-radius: 20px;
+        height: 40px;
+        width: 100%;
+        display: flex;
+    }
+
+    #input-search{
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 2px solid rgb(14, 14, 14);
+        background-color: transparent; 
+        padding: 10px; 
+        outline: none;
+    }
+
+    #search-submit{
+        height: 40px;
+        width: 40px;
+        margin-left: 10px;
+        border-radius: 7px;
+    }
+
+/*fixed header*/
+    .main-header.fixed-header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+        z-index: 99999;
+        border-bottom: 2px solid var(--gray-foster);
+    }
+/*body*/
+/*menu discount*/
+    .inline-list-menu-products{
+        height: 60px;
+        width: 100%;
+        background-color: var(--red);
+    }   
+    
+    .menu-products-box{
+        height: 60px;
+        width: 84%;
+        margin-left: 8%;
+        margin-right: 8%;
+        top: 0px;
+        display: flex;
+    }
+
+    .inline-list-menu-discount{
+        width: 100%;
+        padding: 0px;
+        color: var(--white);
+        font-size: 1.2rem;
+        display: inline-flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .inline-list-menu-discount li{
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .inline-list-menu-discount li:hover{
+        color: var(--red);
+        background-color: var(--yellow);
+    }
+/*banner chung*/
+    .banner{
+        width: 100%;
+        height: 400px;
+        background-image: url(img/banner.png);
+        background-repeat: no-repeat ;
+        background-size: 100%;
+    }
+/*ds ghe massage*/
+    #banner-sp{
+        width: 84%;
+        height: 200px;
+        margin-top: 30px;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    .ghe-massage-banner{
+        background-image: url(img/bannerprd1.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    #content-sp{
+        width: 84%;
+        height: auto;
+        margin-left: 8%;
+        margin-right: 8%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .sp{
+        width: 420px;
+        height: 600px;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    .img-sp{
+        width: 420px;
+        height: 420px;
+        /* background-image: url(img/sp.png); */
+        background-repeat: no-repeat ;
+        background-size: 100%;       
+    }
+
+    .img-sp:hover{
+        box-shadow: 0 0 10px rgba(45, 45, 45, 0.5);
+    }
+
+    .name-sp{
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+
+    .name-sp:hover{
+        color: rgb(155, 23, 27);
+    }
+
+    .price li{
+        display: flex;
+    }
+
+    .pr1{
+        color: var(--red);
+    }
+
+    .pr2{
+        text-decoration: line-through;
+        color:rgb(82, 82, 82);
+        font-size: 1.2rem;
+        padding-bottom: 12px;
+    }
+
+    #add-sp{
+        height: 60px;
+        width: 100%;
+        border: 1px solid var(--red);
+        border-radius: 5px;
+        padding: 10px;
+        display: flex;
+    }
+
+    #add-sp h4{
+        color: rgb(227, 64, 69);
+    }
+
+    #tag-discount{
+        width: 55px;
+        height: 70px;
+        background-image: url(https://poongsankorea.vn/assets/138c888a/img/discount-tag.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        position: absolute;
+        top: 0px;
+        right: 15px;
+        text-align: center;
+    }
+
+/* button xem them */
+
+    #more-item{
+        width: 350px;
+        border-radius: 30px;
+        height: 50px;
+        background-color: var(--red);
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .empty-block{
+        height: 10px;
+        width: 35px;
+    }
+    .more-item-ghe-massage{
+        width: 350px;
+        border-radius: 30px;
+        height: 50px;
+        background-color: var(--red);
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon-more-item{
+        margin-right: 10px;
+    }
+
+    #show-more-ghe-massage{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        display: none;
+    }
+
+    .ghe-massage-list-product.show-more #show-more-ghe-massage{
+        display: inline-flex;
+    }
+/*ds may chay bo*/
+    .may-chay-bo-banner{
+        background-image: url(img/bannerprd2.png);
+        background-repeat: no-repeat ;
+        background-size: 100%;
+    }
+
+    .mcb-img1{
+        background-image: url(img/mcb.png);
+        background-repeat: no-repeat ;
+        background-size: 100%;
+    }
+/*xe dap tap*/
+    .xe-dap-tap-banner{
+        background-image: url(img/bannerprd3.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+/*dung-cu-massage*/
+    .dung-cu-massage-banner{
+        background-image: url(img/bannerprd4.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .hide{
+        display: none;
+    }
+/*footer*/
+    footer{
+        color: rgb(89, 89, 89);
+    }
+    footer h3{
+        color: rgb(14, 14, 14);
+    }
+
+    footer p{
+        padding-bottom: 6px;
+    }
+    #title{
+        padding-bottom: 15px;
+    }
+/*footer1*/
+    .footer-line1{
+        background-color: var(--gray);
+        width: 100%;
+        height: 250px;
+        margin-top: 30px;
+    }
+
+    .main-footer1{
+        width: 84%;
+        height: 250px;
+        margin-top: 25px;
+        margin-left: 8%;
+        margin-right: 8%;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .main-1-1{
+        flex: 3;
+    }
+
+    .main-1-2{
+        flex: 3;
+    }
+
+    .main-1-3{
+        flex: 3;
+    }
+
+    .main-1-4{
+        flex: 3;
+    }
+/*footer2*/
+    .footer-line2{
+        background-color: var(--gray);
+        width: 100%;
+        height: 250px;
+    }
+
+    .main-footer2{
+        width: 84%;
+        height: 250px;
+        margin-top: 0px;
+        margin-left: 8%;
+        margin-right: 8%;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .main-2-1{
+        flex: 6;
+    }
+
+    #main-2-1-boxtext{
+        width: 80%;
+        left: 0px;
+    }
+
+    .main-2-2{
+        flex: 3;
+    }
+
+    .main-2-3{
+        flex: 3;
+    }
+
+    #line-block-footer-hethongweb{
+        display: flex;
+        align-items: baseline;
+    }
+
+    #line-block-footer-hethongweb p{
+        margin-left: 5px;
+    }
+/*footer3*/
+    .footer-line3{
+        background-color: var(--gray-foster);
+        width: 100%;
+        height: 40px;
+        
+    }
+
+    .main-footer3{
+        width: 84%;
+        height: 40px;
+        margin-top: 0px;
+        margin-left: 8%;
+        margin-right: 8%;
+        font-size: 0.8rem;
+    }
+
+    .main-3-1{
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+
+/* back top */
+    .back-top{
+        background-color: var(--red);
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: 40px;
+        right: 30px;
+    }

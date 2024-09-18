@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Poongsan Korea</title>
+</head>
+<!-- header -->
+<header>
+<!-- top-header -->
+    <div class="top-header">
+        <div class="inline-list-box">
+            <ul class="inline-list-support" style="list-style-type: none;">
+                <li>
+                    <i class="fa-solid fa-phone"></i>
+                    Tư vấn mua hàng: 1900 232396
+                </li>
+                <li>
+                    <i class="fa-solid fa-gear"></i>
+                    Bảo hành và CSKH: 1900 2270
+                </li>
+                <li class="shopping-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="icon-shopping-count"><b>0</b></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+<!-- main-header -->
+    <div class="main-header">
+        <div class="list-services-box">
+            <div class="logo">
+                <img src="img/logo.png" title="CÔNG TY CỔ PHẦN ĐẦU TƯ THƯƠNG MẠI BÁCH TƯỜNG PHÁT" alt="LOGO POONGSAN" style="max-height: 80px;">
+            </div>
+            <div class="inline-services">
+                <ul class="menu-services" style="list-style-type: none;">
+                    <li>
+                        <a href="https://poongsankorea.vn/gioi-thieu">
+                            <span><b>GIỚI THIỆU</b></span>
+                        </a>  
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><b>SẢN PHẨM</b></span>
+                            <ul class="sub-menu">
+                                <li>GHẾ MASSAGE</li>
+                                <li>MÁY CHẠY BỘ</li>
+                                <li>XE ĐẠP TẬP</li>
+                                <li>DỤNG CỤ MASSAGE</li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://poongsankorea.vn/showroom">
+                            <span><b>SHOWROOM</b></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://poongsankorea.vn/">
+                            <span><b>KHUYẾN MÃI</b></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://poongsankorea.vn/tin-tuc">
+                            <span><b>TIN TỨC</b></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="search-box">
+                <div class="input-text">
+                    <input type="search" id="input-search" value placeholder="Nhập từ khóa tìm kiếm">
+                    <button type="submit" id="search-submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<body>
+
+    <div class="inline-list-menu-products">
+        <div class="menu-products-box">
+            <ul class="inline-list-menu-discount" style="list-style-type: none;">
+                <li style="flex: 3;">
+                    <span><b>KHUYẾN MÃI</b></span>
+                </li>
+                <li style="flex: 3;">
+                    <span><b>SALE KHỦNG >50%</b></span>
+                </li>
+                <li style="flex: 2;">
+                    <span><b>GIÁ SỐC</b></span>
+                </li>
+                <li style="flex: 5;">
+                    <span><b>HÀNG TRƯNG BÀY - GIÁ GIẢM SIÊU LẦY</b></span>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+
+    <div class="banner"></div>   
+
+<!-- ghe-massage -->
+    <div id="banner-sp" class="ghe-massage-banner"></div>
+    <div id="content-sp" class="ghe-massage-list-product">
+<!-- sp1 -->
+        <div id="sp1" class="sp">
+            <div id="gm-img-sp1" class="img-sp"></div>
+            <div class="name-sp">
+                <h2 id="gm-name-sp1"></h2>
+            </div>
+            <ul class="price" style="list-style-type: none;">
+                <li class="pr1"><h2 id="gm-pr1"></h2><sup><h2>đ</h2></sup></li>
+                <li class="pr2"><p id="gm-no-dc-pr1"></p><sup>đ</sup></li>
+            </ul>
+            <div id="add-sp">
+                <i class="fa-solid fa-location-dot fa-xl" style="color: #ed1c24; margin-top: 7px; margin-right: 5px"></i>
+                <h4 id="gm-add1"></h4>
+            </div>
+            <div id="tag-discount" class="g-dc1">
+                <h4 style="color: var(--white); padding-top:5px;">Giảm</h4>
+                <h2 style="color: var(--white)">45%</h2>
+            </div>
+        </div>
+<!-- sp2 -->
+        <div id="sp2" class="sp">
+            <div id="gm-img-sp2" class="img-sp"></div>
+            <div class="name-sp">
+                <h2 id="gm-name-sp2"></h2>
+            </div>
+            <ul class="price" style="list-style-type: none;">
+                <li class="pr1"><h2 id="gm-pr2"></h2><sup><h2>đ</h2></sup></li>
+                <li class="pr2"><p id="gm-no-dc-pr2"></p><sup>đ</sup></li>
+            </ul>
+            <div id="add-sp">
+                <i class="fa-solid fa-location-dot fa-xl" style="color: #ed1c24; margin-top: 7px; margin-right: 5px"></i>
+                <h4 id="gm-add2"></h4>
+            </div>
+            <div id="tag-discount" class="g-dc2">
+                <h4 style="color: var(--white); padding-top:5px;">Giảm</h4>
+                <h2 style="color: var(--white)">45%</h2>
+            </div>
+        </div>
+<!-- sp3 -->
+        <div id="sp3" class="sp">
+            <div id="gm-img-sp3" class="img-sp"></div>
+            <div class="name-sp">
+                <h2 id="gm-name-sp3"></h2>
+            </div>
+            <ul class="price" style="list-style-type: none;">
+                <li class="pr1"><h2 id="gm-pr3"></h2><sup><h2>đ</h2></sup></li>
+                <li class="pr2"><p id="gm-no-dc-pr3"></p><sup>đ</sup></li>
+            </ul>
+            <div id="add-sp">
+                <i class="fa-solid fa-location-dot fa-xl" style="color: #ed1c24; margin-top: 7px; margin-right: 5px"></i>
+                <h4 id="gm-add3"></h4>
+            </div>
+            <div id="tag-discount" class="g-dc3">
+                <h4 style="color: var(--white); padding-top:5px;">Giảm</h4>
+                <h2 style="color: var(--white)">45%</h2>
+            </div>
+        </div>
+<!-- sp4 -->
+        <div id="sp4" class="sp">
+            <div id="gm-img-sp4" class="img-sp"></div>
+            <div class="name-sp">
+                <h2 id="gm-name-sp4"></h2>
+            </div>
+            <ul class="price" style="list-style-type: none;">
+                <li class="pr1"><h2 id="gm-pr4"></h2><sup><h2>đ</h2></sup></li>
+                <li class="pr2"><p id="gm-no-dc-pr4"></p><sup>đ</sup></li>
+            </ul>
+            <div id="add-sp">
+                <i class="fa-solid fa-location-dot fa-xl" style="color: #ed1c24; margin-top: 7px; margin-right: 5px"></i>
+                <h4 id="gm-add4"></h4>
+            </div>
+            <div id="tag-discount" class="g-dc4">
+                <h4 style="color: var(--white); padding-top:5px;">Giảm</h4>
+                <h2 style="color: var(--white)">45%</h2>
+            </div>
+        </div>
+<!-- sp5 -->
+        <div id="sp5" class="sp">
+            <div id="gm-img-sp5" class="img-sp"></div>
+            <div class="name-sp">
+                <h2 id="gm-name-sp5"></h2>
+            </div>
+            <ul class="price" style="list-style-type: none;">
+                <li class="pr1"><h2 id="gm-pr5"></h2><sup><h2>đ</h2></sup></li>
+                <li class="pr2"><p id="gm-no-dc-pr5"></p><sup>đ</sup></li>
+            </ul>
+            <div id="add-sp" class="g-add5">
+                <i class="fa-solid fa-location-dot fa-xl" style="color: #ed1c24; margin-top: 7px; margin-right: 5px"></i>
+                <h4 id="gm-add5"></h4>
+            </div>
+            <div id="tag-discount" class="g-dc5">
+                <h4 style="color: var(--white); padding-top:5px;">Giảm</h4>
+                <h2 style="color: var(--white)">45%</h2>
+            </div>
+        </div>
+<!-- sp6 -->
+        <div id="sp6" class="sp">
+            <div id="gm-img-sp6" class="img-sp"></div>
+            <div class="name-sp">
+                <h2 id="gm-name-sp6"></h2>
+            </div>
+            <ul class="price" style="list-style-type: none;">
+                <li class="pr1"><h2 id="gm-pr6"></h2><sup><h2>đ</h2></sup></li>
+                <li class="pr2"><p id="gm-no-dc-pr6"></p><sup>đ</sup></li>
+            </ul>
+            <div id="add-sp">
+                <i class="fa-solid fa-location-dot fa-xl" style="color: #ed1c24; margin-top: 7px; margin-right: 5px"></i>
+                <h4 id="gm-add6"></h4>
+            </div>
+            <div id="tag-discount" class="g-dc6">
+                <h4 style="color: var(--white); padding-top:5px;">Giảm</h4>
+                <h2 style="color: var(--white)">45%</h2>
+            </div>
+        </div>
+
+        <div id="show-more-ghe-massage" class="show-more-sp">
+<!-- sp7 -->
+            <div id="sp7" class="sp">
+                <div id="gm-img-sp7" class="img-sp"></div>
+                <div class="name-sp">
+                    <h2 id="gm-name-sp7"></h2>
+                </div>
+                <ul class="price" style="list-style-type: none;">
+                    <li class="pr1"><h2 id="gm-pr7"></h2><sup><h2>đ</h2></sup></li>
+                    <li class="pr2"><p id="gm-no-dc-pr7"></p><sup>đ</sup></li>
+                </ul>
+                <div id="add-sp">
+                    <i class="fa-solid fa-location-dot fa-xl" style="color: #ed1c24; margin-top: 7px; margin-right: 5px"></i>
+                    <h4 id="gm-add7"></h4>
+                </div>
+                <div id="tag-discount" class="g-dc7">
+                    <h4 style="color: var(--white); padding-top:5px;">Giảm</h4>
+                    <h2 style="color: var(--white)">45%</h2>
+                </div>
+            </div>
+<!-- sp8 -->
+            <div id="sp8" class="sp">
+                <div id="gm-img-sp8" class="img-sp"></div>
+                <div class="name-sp">
+                    <h2 id="gm-name-sp8"></h2>
+                </div>
+                <ul class="price" style="list-style-type: none;">
+                    <li class="pr1"><h2 id="gm-pr8"></h2><sup><h2>đ</h2></sup></li>
+                    <li class="pr2"><p id="gm-no-dc-pr8"></p><sup>đ</sup></li>
+                </ul>
+                <div id="add-sp">
+                    <i class="fa-solid fa-location-dot fa-xl" style="color: #ed1c24; margin-top: 7px; margin-right: 5px"></i>
+                    <h4 id="gm-add8"></h4>
+                </div>
+                <div id="tag-discount" class="g-dc8">
+                    <h4 style="color: var(--white); padding-top:5px;">Giảm</h4>
+                    <h2 style="color: var(--white)">45%</h2>
+                </div>
+            </div>
+<!-- sp9 -->
+            <div id="sp9" class="sp">
+                <div id="gm-img-sp9" class="img-sp"></div>
+                <div class="name-sp">
+                    <h2 id="gm-name-sp9"></h2>
+                </div>
+                <ul class="price" style="list-style-type: none;">
+                    <li class="pr1"><h2 id="gm-pr9"></h2><sup><h2>đ</h2></sup></li>
+                    <li class="pr2"><p id="gm-no-dc-pr9"></p><sup>đ</sup></li>
+                </ul>
+                <div id="add-sp">
+                    <i class="fa-solid fa-location-dot fa-xl" style="color: #ed1c24; margin-top: 7px; margin-right: 5px"></i>
+                    <h4 id="gm-add9"></h4>
+                </div>
+                <div id="tag-discount" class="g-dc9">
+                    <h4 style="color: var(--white); padding-top:5px;">Giảm</h4>
+                    <h2 style="color: var(--white)">45%</h2>
+                </div>
+            </div>
+        </div>
+<!-- button xem them -->
+        <div id="more-item" class="more-item-ghe-massage">
+            <div class="empty-block"></div>
+            <div class="text-block">
+                <h2 style="color: var(--white);">XEM THÊM</h2>
+            </div>
+            <div class="icon-more-item">
+                <i class="fa-solid fa-circle-play fa-2xl" style="color: #ffffff;"></i>
+            </div>
+        </div>
+    </div>
+<!-- may-chay-bo -->
+    <div id="banner-sp" class="may-chay-bo-banner"></div>
+    <div id="content-sp" class="may-chay-bo-list-product">
+<!-- sp1 -->
+        <div id="sp1" class="sp">
+            <div id="mcb-img-sp1" class="img-sp"></div>
+            <div id="mcb-name-sp1" class="name-sp">
+                <h2>Máy chạy bộ Poongsan TMP-250</h2>
+            </div>
+            <ul class="price" style="list-style-type: none;">
+                <li class="pr1"><h2 id="mcb-pr1"></h2><sup><h2>đ</h2></sup></li>
+                <li class="pr2"><p id="mcb-no-dc-pr1"></p><sup>đ</sup></li>
+            </ul>
+            <div id="add-sp" class="mcb-add1">
+                <i class="fa-solid fa-location-dot fa-xl" style="color: #ed1c24; margin-top: 7px; margin-right: 5px"></i>
+                <h4>Savico Long Biên, Go Vĩnh Phúc, BigC Vinh</h4>
+            </div>
+            <div id="tag-discount" class="mcb-dc1">
+                <h4 style="color: var(--white); padding-top:5px;">Giảm</h4>
+                <h2 style="color: var(--white)">45%</h2>
+            </div>
+        </div>
+<!-- sp2 -->
+        <div id="sp2" class="sp">
+            <div id="mcb-img-sp2" class="img-sp"></div>
+            <div id="mcb-name-sp2" class="name-sp">
+                <h2>Máy chạy bộ Poongsan TMP-888</h2>
+            </div>
+            <ul class="price" style="list-style-type: none;">
+                <li class="pr1"><h2 id="mcb-pr2"></h2><sup><h2>đ</h2></sup></li>
+                <li class="pr2"><p id="mcb-no-dc-pr2"></p><sup>đ</sup></li>
+            </ul>
+            <div id="add-sp" class="mcb-add2">
+                <i class="fa-solid fa-location-dot fa-xl" style="color: #ed1c24; margin-top: 7px; margin-right: 5px"></i>
+                <h4>Savico Long Biên, Go Vĩnh Phúc, BigC Vinh</h4>
+            </div>
+            <div id="tag-discount" class="mcb-dc2">
+                <h4 style="color: var(--white); padding-top:5px;">Giảm</h4>
+                <h2 style="color: var(--white)">45%</h2>
+            </div>
+        </div>
+<!-- sp3 -->
+        <div id="sp3" class="sp">
+            <div id="mcb-img-sp3" class="img-sp"></div>
+            <div id="mcb-name-sp3" class="name-sp">
+                <h2>Máy chạy bộ Poongsan TMP-900</h2>
+            </div>
+            <ul class="price" style="list-style-type: none;">
+                <li class="pr1"><h2 id="mcb-pr3"></h2><sup><h2>đ</h2></sup></li>
+                <li class="pr2"><p id="mcb-no-dc-pr3"></p><sup>đ</sup></li>
+            </ul>
+            <div id="add-sp" class="mcb-add3">
+                <i class="fa-solid fa-location-dot fa-xl" style="color: #ed1c24; margin-top: 7px; margin-right: 5px"></i>
+                <h4>Savico Long Biên, Go Vĩnh Phúc, BigC Vinh</h4>
+            </div>
+            <div id="tag-discount" class="mcb-dc3">
+                <h4 style="color: var(--white); padding-top:5px;">Giảm</h4>
+                <h2 style="color: var(--white)">35%</h2>
+            </div>
+        </div>
+<!-- button xem them -->
+        <div id="more-item" class="more-item-may-chay-bo">
+            <div class="empty-block"></div>
+            <div class="text-block">
+                <h2 style="color: var(--white);">XEM THÊM</h2>
+            </div>
+            <div class="icon-more-item">
+                <i class="fa-solid fa-circle-play fa-2xl" style="color: #ffffff;"></i>
+            </div>
+        </div>
+    </div>
+<!-- xe dap tap -->
+    <div id="banner-sp" class="xe-dap-tap-banner"></div>
+    <div id="content-sp" class="xe-dap-tap-list-product">
+<!-- sp1 -->
+        <div id="sp1" class="sp">
+            <div id="xdt-img-sp1" class="img-sp"></div>
+            <div id="xdt-name-sp1" class="name-sp">
+                <h2>Máy chạy bộ Poongsan TMP-250</h2>
+            </div>
+            <ul class="price" style="list-style-type: none;">
+                <li class="pr1"><h2 id="xdt-pr1"></h2><sup><h2>đ</h2></sup></li>
+                <li class="pr2"><p id="xdt-no-dc-pr1"></p><sup>đ</sup></li>
+            </ul>
+            <div id="add-sp" class="xdt-add1">
+                <i class="fa-solid fa-location-dot fa-xl" style="color: #ed1c24; margin-top: 7px; margin-right: 5px"></i>
+                <h4>Savico Long Biên, Go Vĩnh Phúc, BigC Vinh</h4>
+            </div>
+            <div id="tag-discount" class="xdt-dc1">
+                <h4 style="color: var(--white); padding-top:5px;">Giảm</h4>
+                <h2 style="color: var(--white)">45%</h2>
+            </div>
+        </div>
+<!-- sp2 -->
+        <div id="sp2" class="sp">
+            <div id="xdt-img-sp2" class="img-sp"></div>
+            <div id="xdt-name-sp2" class="name-sp">
+                <h2>Máy chạy bộ Poongsan TMP-250</h2>
+            </div>
+            <ul class="price" style="list-style-type: none;">
+                <li class="pr1"><h2 id="xdt-pr2"></h2><sup><h2>đ</h2></sup></li>
+                <li class="pr2"><p id="xdt-no-dc-pr2"></p><sup>đ</sup></li>
+            </ul>
+            <div id="add-sp" class="xdt-add2">
+                <i class="fa-solid fa-location-dot fa-xl" style="color: #ed1c24; margin-top: 7px; margin-right: 5px"></i>
+                <h4>Savico Long Biên, Go Vĩnh Phúc, BigC Vinh</h4>
+            </div>
+            <div id="tag-discount" class="xdt-dc2">
+                <h4 style="color: var(--white); padding-top:5px;">Giảm</h4>
+                <h2 style="color: var(--white)">45%</h2>
+            </div>
+        </div>
+<!-- sp3 -->
+        <div id="sp3" class="sp">
+            <div id="xdt-img-sp3" class="img-sp"></div>
+            <div id="xdt-name-sp3" class="name-sp">
+                <h2>Máy chạy bộ Poongsan TMP-250</h2>
+            </div>
+            <ul class="price" style="list-style-type: none;">
+                <li class="pr1"><h2 id="xdt-pr3"></h2><sup><h2>đ</h2></sup></li>
+                <li class="pr2"><p id="xdt-no-dc-pr3"></p><sup>đ</sup></li>
+            </ul>
+            <div id="add-sp" class="xdt-add3">
+                <i class="fa-solid fa-location-dot fa-xl" style="color: #ed1c24; margin-top: 7px; margin-right: 5px"></i>
+                <h4>Savico Long Biên, Go Vĩnh Phúc, BigC Vinh</h4>
+            </div>
+            <div id="tag-discount" class="xdt-dc3">
+                <h4 style="color: var(--white); padding-top:5px;">Giảm</h4>
+                <h2 style="color: var(--white)">45%</h2>
+            </div>
+        </div>
+<!-- button xem them -->
+        <div id="more-item" class="more-item-xe-dap-tap">
+            <div class="empty-block"></div>
+            <div class="text-block">
+                <h2 style="color: var(--white);">XEM THÊM</h2>
+            </div>
+            <div class="icon-more-item">
+                <i class="fa-solid fa-circle-play fa-2xl" style="color: #ffffff;"></i>
+            </div>
+        </div>
+    </div>
+<!-- dung cu massage   -->
+    <div id="banner-sp" class="dung-cu-massage-banner"></div>
+    <div id="content-sp" class="dung-cu-massage-list-product">
+<!-- sp1 -->
+        <div id="sp1" class="sp">
+            <div id="dc-img-sp1" class="img-sp"></div>
+            <div id="dc-name-sp1" class="name-sp">
+                <h2>Máy chạy bộ Poongsan TMP-250</h2>
+            </div>
+            <ul class="dc-price1" style="list-style-type: none;">
+                <li id="pr1" class="dc-dc-price1"><h2>16.500.000<sup>đ</sup></h2></li>
+                <li id="pr2" class="dc-no-dc-price1">36.990.000<sup>đ</sup></li>
+            </ul>
+            <div id="add-sp" class="dc-add1">
+                <i class="fa-solid fa-location-dot fa-xl" style="color: #ed1c24; margin-top: 7px; margin-right: 5px"></i>
+                <h4>Savico Long Biên, Go Vĩnh Phúc, BigC Vinh</h4>
+            </div>
+            <div id="tag-discount" class="dc-dc1">
+                <h4 style="color: var(--white); padding-top:5px;">Giảm</h4>
+                <h2 style="color: var(--white)">45%</h2>
+            </div>
+        </div>
+<!-- sp2 -->
+        <div id="sp2" class="sp">
+            <div id="dc-img-sp2" class="img-sp"></div>
+            <div id="dc-name-sp2" class="name-sp">
+                <h2>Máy chạy bộ Poongsan TMP-250</h2>
+            </div>
+            <ul class="dc-price2" style="list-style-type: none;">
+                <li id="pr1" class="dc-dc-price2"><h2>16.500.000<sup>đ</sup></h2></li>
+                <li id="pr2" class="dc-no-dc-price2">36.990.000<sup>đ</sup></li>
+            </ul>
+            <div id="add-sp" class="dc-add2">
+                <i class="fa-solid fa-location-dot fa-xl" style="color: #ed1c24; margin-top: 7px; margin-right: 5px"></i>
+                <h4>Savico Long Biên, Go Vĩnh Phúc, BigC Vinh</h4>
+            </div>
+            <div id="tag-discount" class="dc-dc2">
+                <h4 style="color: var(--white); padding-top:5px;">Giảm</h4>
+                <h2 style="color: var(--white)">45%</h2>
+            </div>
+        </div>
+<!-- sp3 -->
+        <div id="sp3" class="sp">
+            <div id="dc-img-sp3" class="img-sp"></div>
+            <div id="dc-name-sp3" class="name-sp">
+                <h2>Máy chạy bộ Poongsan TMP-250</h2>
+            </div>
+            <ul class="dc-price3" style="list-style-type: none;">
+                <li id="pr1" class="dc-dc-price3"><h2>16.500.000<sup>đ</sup></h2></li>
+                <li id="pr2" class="dc-no-dc-price3">36.990.000<sup>đ</sup></li>
+            </ul>
+            <div id="add-sp" class="dc-add3">
+                <i class="fa-solid fa-location-dot fa-xl" style="color: #ed1c24; margin-top: 7px; margin-right: 5px"></i>
+                <h4>Savico Long Biên, Go Vĩnh Phúc, BigC Vinh</h4>
+            </div>
+            <div id="tag-discount" class="dc-dc3">
+                <h4 style="color: var(--white); padding-top:5px;">Giảm</h4>
+                <h2 style="color: var(--white)">45%</h2>
+            </div>
+        </div>
+<!-- button xem them -->
+        <div id="more-item" class="more-item-dung-cu-massage">
+            <div class="empty-block"></div>
+            <div class="text-block">
+                <h2 style="color: var(--white);">XEM THÊM</h2>
+            </div>
+            <div class="icon-more-item">
+                <i class="fa-solid fa-circle-play fa-2xl" style="color: #ffffff;"></i>
+            </div>
+        </div>
+    </div>
+
+<!-- footer -->
+    <footer>
+        <div class="footer-line1">
+            <div class="main-footer1">
+                <div class="main-1-1">
+                    <h3 id="title">Về chúng tôi</h3>
+                    <p>Giới thiệu chung</p>
+                    <p>Tầm nhìn và sứ mệnh</p>
+                    <p>Định hướng phát triển</p>
+                </div>
+                <div class="main-1-2">
+                    <h3 id="title">Hỗ trợ</h3>
+                    <p>Danh sách cửa hàng</p>
+                    <p>Quy định thanh toán</p>
+                    <p>Vận chuyển & lắp đặt</p>
+                    <p>Quy định đổi trả</p>
+                    <p>Chính sách bảo hành</p>
+                </div>
+                <div class="main-1-3">
+                    <h3 id="title">Tin tức</h3>
+                    <p>Thông tin tuyển dụng</p>
+                    <p>Hoạt động công ty</p>
+                    <p>Tin khuyến mại</p>
+                </div>
+                <div class="main-1-4">
+                    <h3 id="title">Các hình thức thanh toán</h3>
+                    <div class="payment"></div>
+                    <h3 id="title">Liên kết</h3>
+                    <div class="Social"></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-line2">
+            <div class="main-footer2">
+                <div class="main-2-1">
+                    <div id="main-2-1-boxtext">
+                        <h3 id="title">Công ty cổ phần đầu tư thương mại Bách Tường Phát</h3>
+                        <p><b>Địa chỉ:</b> T5, N01-T4 Tower, CC Phú Mỹ Complex, Khu Ngoại Giao Đoàn, Q.Bắc Từ Liêm, TP.Hà Nội</p>
+                        <p><b>VP Miền Nam:</b> Sai Gon Finance Center Tower|(Tầng 3) Số 9 Đinh Tiên Hoàng, Phường Đa Kao, Quận 1, TP.Hồ Chí Minh</p>
+                        <p><b>Điện thoại:</b> (84 - 024) 35551539</p>
+                        <p><b>Email:</b> info@btpholdings.vn</p>
+                    </div>
+                </div>
+                <div class="main-2-2">
+                    <h3 id="title">Hệ thống website</h3>
+                    <div id="line-block-footer-hethongweb">
+                        <i class="fa-solid fa-circle-chevron-right fa-xs" style="color: #595959;"></i>
+                        <p>btpstore.vn</p>
+                    </div>
+                    <div id="line-block-footer-hethongweb">
+                        <i class="fa-solid fa-circle-chevron-right fa-xs" style="color: #595959;"></i> 
+                        <p>bossmassage.vn</p>
+                    </div>
+                    <div id="line-block-footer-hethongweb">
+                        <i class="fa-solid fa-circle-chevron-right fa-xs" style="color: #595959;"></i> 
+                        <p>junger.vn</p>
+                    </div>
+                    <div id="line-block-footer-hethongweb">
+                        <i class="fa-solid fa-circle-chevron-right fa-xs" style="color: #595959;"></i> 
+                        <p>hawonkoo.vn</p>
+                    </div>
+                </div>
+                <div class="main-2-3">
+                    <h3 id="title">Thành viên tập đoàn</h3>
+                    <div class="members"></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-line3">
+            <div class="main-footer3">
+                <div class="main-3-1">
+                    Poongsankorea - All Right Reserved
+                </div>
+                <div class="main-3-2"></div>
+            </div>
+            
+        </div>
+    </footer>
+<!-- pin screen -->
+    <div class="back-top">
+        <i class="fa-solid fa-chevron-right fa-rotate-270 fa-2xl" style="color: #ffffff;"></i>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
